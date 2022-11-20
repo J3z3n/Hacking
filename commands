@@ -1,0 +1,5 @@
+sudo ifconfig
+ifconfig wlan0 down
+sudo ifconfig wlan0 hw ether 00:1B:2C:3D:4E:5F
+sudo ifconfig wlan0 up
+sudo ifconfig
